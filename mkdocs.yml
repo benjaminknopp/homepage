@@ -1,12 +1,13 @@
-site_name: Benjamin
+site_name: Homepage of Benjamin Knopp
 theme:
   name: material
+  custom_dir: overrides
   font:
-    text: Agbalumo
+    text: Open Sans
   palette:
     primary: purple
-  logo: assets/images/Nextcloud.png
-  language: tl
+  # logo: assets/images/Nextcloud.png
+  language: en
   features:
     - navigation.tabs           #navigation tabs vertically aligned under on the top
     - navigation.tabs.sticky    #tabs stay visible when scrolling down
@@ -15,8 +16,35 @@ theme:
     - navigation.expand         #left sidebar will expand all collapsible subsections 
     - toc.integrate             #"Table of contents" is not separately shown on the right but integrated in the navigation on the left
 docs_dir: docs
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - codehilite
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav: 
   - About: About.md
   - Research Interests: interest.md
   - Curriculum Vitae: cv.md
-  - 
+  - Blog: blog.md
+  - Contact: contact.md
