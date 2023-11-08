@@ -6,7 +6,7 @@ theme:
     text: Open Sans
   palette:
     primary: purple
-  # logo: assets/images/Nextcloud.png
+  logo: assets/images/brainrider.png
   language: en
   features:
     - navigation.tabs           #navigation tabs vertically aligned under on the top
