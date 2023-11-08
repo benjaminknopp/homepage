@@ -1,0 +1,22 @@
+site_name: Benjamin
+theme:
+  name: material
+  font:
+    text: Agbalumo
+  palette:
+    primary: purple
+  logo: assets/images/Nextcloud.png
+  language: tl
+  features:
+    - navigation.tabs           #navigation tabs vertically aligned under on the top
+    - navigation.tabs.sticky    #tabs stay visible when scrolling down
+    - navigation.top            #back-to-top button 
+    - navigation.sections       #sections (=.md files) rendered
+    - navigation.expand         #left sidebar will expand all collapsible subsections 
+    - toc.integrate             #"Table of contents" is not separately shown on the right but integrated in the navigation on the left
+docs_dir: docs
+nav: 
+  - About: About.md
+  - Research Interests: interest.md
+  - Curriculum Vitae: cv.md
+  - 
